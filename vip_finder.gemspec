@@ -14,6 +14,11 @@ Gem::Specification.new do |spec|
   spec.homepage      = %q{https://github.com/paulkaczor/vip_finder.git}
   spec.license       = "MIT"
 
+  # Dependencies for general use.
+  spec.add_dependency "alchemy_api"
+  spec.add_dependency "activesupport", "~> 4.2.0"
+
+  # Dependencies for testing environment.
   spec.add_development_dependency "rspec", "~> 3.2"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

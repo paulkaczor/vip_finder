@@ -8,4 +8,8 @@ describe VipFinder::Find do
   it "anything else is delicious" do
     expect(VipFinder::Find.portray("Not Broccoli")).to eql("Delicious!")
   end
+
+  it "pluralizes a word" do
+    expect(VipFinder::Find.pluralize("Tomato")).to eql("Tomatoes")
+  end
 end

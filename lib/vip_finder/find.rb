@@ -7,5 +7,8 @@ module VipFinder
         "Delicious!"
       end
     end
+    def self.pluralize(word)
+      word.pluralize
+    end
   end
 end
