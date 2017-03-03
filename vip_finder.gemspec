@@ -9,10 +9,12 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Paul Kaczor"]
   spec.email         = ["paulkaczor@ecr.technology"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Summary}
+  spec.description   = %q{Desciption}
+  spec.homepage      = %q{https://github.com/paulkaczor/vip_finder.git}
   spec.license       = "MIT"
+
+  spec.add_development_dependency "rspec", "~> 3.2"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
